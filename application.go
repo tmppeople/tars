@@ -40,7 +40,7 @@ func init() {
 	shutdown = make(chan bool, 1)
 	adminMethods = make(map[string]adminFn)
 	rogger.SetLevel(rogger.ERROR)
-	Init()
+	//Init()
 }
 
 //Init should run before GetServerConfig & GetClientConfig , or before run
